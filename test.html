@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<style>
+table.table_style{
+	width:1096px;
+	margin: 0 auto;
+	table-layout: fixed;
+	border:3px #D26900 groove;
+}
+table.table_style tbody{
+	width:100%;
+}
+table.table_style tr{
+	width:100%;
+}
+table.table_style td{
+	font-weight:bold;
+	border:3px #D9B300 groove;
+	height:100px;
+	text-align:center;
+	word-wrap:break-word;/*空間不夠自動換行*/
+}
+.one-bg{
+	width:52px;
+	overflow:hidden;/*碰到邊緣自動縮減*/
+	background-color: #FFFFB9;
+}
+.two-bg{
+	width:135px;
+	overflow:hidden;
+	background-color: #C1FFE4;
+}
+.three-bg{
+	width:195px;
+	overflow:hidden;
+	background-color: #FFE4CA;
+}
+.four-bg{
+	width:151px;
+	overflow:hidden;
+	background-color: #FFFFDF;
+}
+.five-bg{
+	width:221px;
+	overflow:hidden;
+	background-color: #C4E1E1;
+}
+.six-bg{
+	width:260px;
+	overflow:hidden;
+	background-color: #DDDDFF;
+}
+.seven-bg{
+	width:82px;
+	overflow:hidden;
+	background-color: #FFD9EC;
+}
+</style>
+<p> </p>
+<table class='table_style'>
+<tbody>
+<colgroup>
+<col span="1" class="one-bg">
+<col span="1" class="two-bg">
+<col span="1" class="three-bg">
+<col span="1" class="four-bg">
+<col span="1" class="five-bg">
+<col span="1" class="six-bg">
+<col span="1" class="seven-bg">
+</colgroup>
+<tr>
+<td width="52">NO</td>
+<td width="135">課程名稱</td>
+<td width="195">任課師長</td>
+<td width="151">上課時間</td>
+<td width="221">課程連結</td>
+<td width="260">備註</td>
+<td width="82">更新時間</td>
+</tr>
+<tr>
+<td>1</td>
+<td>光電子學<br />
+Photonics</td>
+<td>楊素華<br />
+SU-HUA YANG</td>
+<td>(二)5-7</td>
+<td width="221"><a href="https://meet.google.com/hpy-hdha-wut">https://meet.google.com/hpy-hdha-wut</a></td>
+<td width="260">博子一甲<br />
+碩子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>數位實習</td>
+<td>謝欽旭<br />
+Chin-Shiuh Shieh</td>
+<td>(四)5-8</td>
+<td width="221">https://meet.google.com/tmy-wkpz-rjg</td>
+<td width="260">四子一丙</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>微算機原理</td>
+<td>謝欽旭<br />
+Chin-Shiuh Shieh</td>
+<td>(三)2-4</td>
+<td width="221">https://meet.google.com/tmy-wkpz-rjg</td>
+<td>四子二丙</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>微算機實習</td>
+<td>謝欽旭<br />
+Chin-Shiuh Shieh</td>
+<td>(一)1-4</td>
+<td width="221">https://meet.google.com/tmy-wkpz-rjg</td>
+<td>四子二丙</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>微算機實習</td>
+<td>謝欽旭<br />
+Chin-Shiuh Shieh</td>
+<td>(五)5-7</td>
+<td width="221">https://meet.google.com/tmy-wkpz-rjg</td>
+<td>電資科技外碩二甲</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>物件導向程式設計<br />
+Object-oriented Programming</td>
+<td>劉炳宏</p>
+<p>Bing-Hong Liu</td>
+<td>(二)5-7</td>
+<td width="221">https://meet.google.com/nee-qzej-hqv</td>
+<td>電資科技外碩二甲</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>程式語言實習(一)<br />
+Programming Practice (1)</td>
+<td>劉炳宏</p>
+<p>Bing-Hong Liu</td>
+<td>(三)7-8</td>
+<td width="221">https://meet.google.com/nee-qzej-hqv</td>
+<td>四子一丙</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>計算機概論<br />
+Foundation of Computer Science</td>
+<td>劉炳宏</p>
+<p>Bing-Hong Liu</td>
+<td>(三)2-4</td>
+<td width="221">https://meet.google.com/nee-qzej-hqv</td>
+<td>四子一丙</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>物件導向程式設計<br />
+Object-oriented Programming</td>
+<td>劉炳宏</p>
+<p>Bing-Hong Liu</td>
+<td>(一)5-8</td>
+<td width="221">https://meet.google.com/nee-qzej-hqv</td>
+<td>四子二丙</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>影像處理實務<br />
+Image Processing Implementation</td>
+<td>陳昭和</p>
+<p>THOU-HO CHEN</td>
+<td>(二)5-8</td>
+<td width="221">https://meet.google.com/jah-dhcz-vzw</td>
+<td>四子三丙</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>影像和視訊處理<br />
+Image and Video Processing</td>
+<td>陳昭和</p>
+<p>THOU-HO CHEN</td>
+<td>(三)6-8</td>
+<td width="221">https://meet.google.com/pfj-depy-vft</td>
+<td>碩子一甲<br />
+博子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>電腦視覺<br />
+Computer Vision</td>
+<td>陳昭和</p>
+<p>THOU-HO CHEN</td>
+<td>(四)10-12</td>
+<td width="221">https://meet.google.com/ebi-ezwt-qui</td>
+<td>進碩子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>保健物理專論<br />
+Health Physics Monograph</td>
+<td>李財福<br />
+Tsair-Fwu Lee</td>
+<td>(三)6-8</td>
+<td width="221">https://meet.google.com/hgu-kwzn-srv</td>
+<td>博子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>信息理論與編解碼<br />
+Coding and Information Theory</td>
+<td>李財福<br />
+Tsair-Fwu Lee</td>
+<td>(二)2-4</td>
+<td width="221">https://meet.google.com/xue-jmaw-cni</td>
+<td>博子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>醫學影像處理<br />
+Medical Image Processing</td>
+<td>李財福<br />
+Tsair-Fwu Lee</td>
+<td>(四)2-4</td>
+<td width="221">https://meet.google.com/sib-xrzv-uzs</td>
+<td>博子二甲</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>工程數學(一)<br />
+Engineering Mathematics (1)</td>
+<td>李財福<br />
+Tsair-Fwu Lee</td>
+<td>(一)6-8</td>
+<td width="221">https://meet.google.com/gfc-ojez-wfk</td>
+<td>四子二乙</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>微積分(一)<br />
+Calculus (1)</td>
+<td>朱紹儀<br />
+Shao-I Chu</td>
+<td>(五)5-7</td>
+<td width="221">meet.google.com/kba-juxf-epa</td>
+<td>四子一丙</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>數位系統設計實習<br />
+Practices of Digital System Design</td>
+<td>朱紹儀<br />
+Shao-I Chu</td>
+<td>(四)5-8</td>
+<td width="221">meet.google.com/wnj-abbu-hjd</td>
+<td>四子二丙</td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>工程機率<br />
+Probability for Engineering</td>
+<td>朱紹儀<br />
+Shao-I Chu</td>
+<td>(三)2-4</td>
+<td width="221">meet.google.com/wzr-czor-kmw</td>
+<td>四子三丙</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>軟體工程<br />
+Software Engineering</td>
+<td>陳聰毅<br />
+Tsong-Yi Chen</td>
+<td>(五)5-7</td>
+<td width="221">https://meet.google.com/vwu-qiho-scy</td>
+<td>碩子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>軟體工程<br />
+Software Engineering</td>
+<td>陳聰毅<br />
+Tsong-Yi Chen</td>
+<td>(五)2-4</td>
+<td width="221">https://meet.google.com/zsy-ycpm-qvs</td>
+<td>四子四丙</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>電子實習(三)<br />
+Electronics Practice (3)</td>
+<td>陳聰毅<br />
+Tsong-Yi Chen<br />
+鄭平守<br />
+Ping-Shou Cheng</td>
+<td>(五)10-12</td>
+<td width="221">https://meet.google.com/yoi-hcer-buj</td>
+<td>進四技電子系三乙</td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>電子儀表<br />
+Electronics Instrumentation</td>
+<td>陳聰毅<br />
+Tsong-Yi Chen<br />
+鄭平守<br />
+Ping-Shou Cheng</td>
+<td>(六)8-10</td>
+<td width="221">https://meet.google.com/igb-iddp-xzv</td>
+<td>進四技電子系一甲<br />
+進四技電子系一乙</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>FPGA元件導論<br />
+Introduction To FPGA Devices</td>
+<td>謝慶發<br />
+Chin-Fa Hsieh</td>
+<td>(四)2-4</td>
+<td width="221">https://meet.google.com/ppm-rthb-gsv</td>
+<td>四子二丙</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>數位晶片設計實作<br />
+Digital IC Design Practice</td>
+<td>謝慶發<br />
+Chin-Fa Hsieh</td>
+<td>(五)1-4</td>
+<td width="221">https://meet.google.com/tsz-skdz-ste</td>
+<td>四子三丙</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>FPGA元件導論<br />
+Introduction To FPGA Devices</td>
+<td>謝慶發<br />
+Chin-Fa Hsieh</td>
+<td>(六)5-7</td>
+<td width="221">https://meet.google.com/iaq-uhte-muq</td>
+<td>進四技電子系二甲</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>FPGA系統設計實務<br />
+Fpga System Design Practice</td>
+<td>謝慶發<br />
+Chin-Fa Hsieh</td>
+<td>(五)11-13</td>
+<td width="221">https://meet.google.com/xfc-dvrk-jbz</td>
+<td>進四技電子系四甲</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>FPGA影像處理晶片設計<br />
+Image Processing Chip Design by FPGA</td>
+<td>謝慶發<br />
+Chin-Fa Hsieh</td>
+<td>(三)10-12</td>
+<td width="221">https://meet.google.com/vub-xcoh-fqz</td>
+<td>碩專電子工程一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>專題研討(一)<br />
+Seminar (1)</td>
+<td>謝慶發<br />
+Chin-Fa Hsieh</td>
+<td>(五)10-11</td>
+<td width="221">https://meet.google.com/tfq-imiv-oou</td>
+<td>碩專電子工程一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td>光纖通訊<span lang="EN-US"><br />
+Optical Fiber Communication</span><span lang="EN-US">s</span></td>
+<td>
+<p style="font-weight: 400;">周肇基<br />
+Jau-Ji Jou</p>
+</td>
+<td><span lang="EN-US">(</span>四<span lang="EN-US">)5-7</span></td>
+<td width="221"><a href="https://meet.google.com/gem-yxrf-uvr">https://meet.google.com/gem-yxrf-uvr</a></td>
+<td>博子一甲<br />
+碩子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>
+<p style="font-weight: 400;">電子學(二)<br />
+Electronics (2)</p>
+</td>
+<td>周肇基<br />
+Jau-Ji Jou</td>
+<td><span lang="EN-US">(</span>二<span lang="EN-US">)2-4</span></td>
+<td width="221"><a href="https://meet.google.com/egt-nwvm-mnv">https://meet.google.com/egt-nwvm-mnv</a></td>
+<td>四子二乙</td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td>
+<p style="font-weight: 400;">通訊導論Introduction to Communications</p>
+</td>
+<td>周肇基<br />
+Jau-Ji Jou</td>
+<td><span lang="EN-US">(</span>四<span lang="EN-US">)2-4</span></td>
+<td width="221"><a href="https://meet.google.com/mpv-ddrs-hpn">https://meet.google.com/mpv-ddrs-hpn</a></td>
+<td>四子三乙</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>
+<p style="font-weight: 400;">半導體製程<br />
+<span lang="EN-US">Semiconductor Fabrication</span></p>
+</td>
+<td>劉志益<br />
+Chih-Yi Liu</td>
+<td><span lang="EN-US">(</span>一<span lang="EN-US">)5-7</span></td>
+<td width="221"><a href="https://meet.google.com/nru-cqpg-zjj">https://meet.google.com/nru-cqpg-zjj</a></td>
+<td>四子四甲</td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td>
+<p style="font-weight: 400;">物理<span lang="EN-US">(</span>一<span lang="EN-US">)<br />
+Physics(1)</span></p>
+</td>
+<td>劉志益<br />
+Chih-Yi Liu</td>
+<td><span lang="EN-US">(</span>四<span lang="EN-US">)5-7</span></td>
+<td width="221"><a href="https://meet.google.com/xrj-icyt-jnr">https://meet.google.com/xrj-icyt-jnr</a></td>
+<td>四子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td>
+<p style="font-weight: 400;">電子儀表<br />
+<span lang="EN-US">Electronics Instrumentation</span></p>
+</td>
+<td>劉志益<br />
+Chih-Yi Liu</td>
+<td><span lang="EN-US">(</span>五<span lang="EN-US">)2-4</span></td>
+<td width="221"><a href="https://meet.google.com/drx-qubh-ihd">https://meet.google.com/drx-qubh-ihd</a></td>
+<td>四子二甲</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>
+<p style="font-weight: 400;">人工智慧<br />
+Artificial Intelligence</p>
+</td>
+<td>楊正宏<br />
+CHENG-HONG YANG</td>
+<td><span lang="EN-US">(</span>二<span lang="EN-US">)2-4</span></td>
+<td width="221"><a href="https://meet.google.com/wdx-ozsv-nwp">https://meet.google.com/wdx-ozsv-nwp</a></td>
+<td>博子一甲</td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td>
+<p style="font-weight: 400;">資料探勘<br />
+Data Mining</p>
+</td>
+<td>楊正宏<br />
+CHENG-HONG YANG</td>
+<td><span lang="EN-US">(</span>一<span lang="EN-US">)5-7</span></td>
+<td width="221"><a href="https://meet.google.com/wdx-ozsv-nwp">https://meet.google.com/wdx-ozsv-nwp</a></td>
+<td>博子二甲</td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td>
+<p style="font-weight: 400;">生產力4.0概論<br />
+Introduction to Productivity 4.0</p>
+</td>
+<td>楊正宏<br />
+CHENG-HONG YANG</td>
+<td><span lang="EN-US">(</span>五<span lang="EN-US">)5-7</span></td>
+<td width="221"><a href="https://meet.google.com/wdx-ozsv-nwp">https://meet.google.com/wdx-ozsv-nwp</a></td>
+<td>四子三丙</td>
+<td></td>
+</tr>
+</tbody>
+</table>
